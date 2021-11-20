@@ -2,6 +2,20 @@
 
 Electrum Protocol Client for node.js.
 
+# Tor
+
+To connect to Electrum over a Tor connection:
+
+```
+const client = new ElectrumClient(50001, "myonionaddress.onion", "tcp", {
+    proxy: {
+      host: "127.0.0.1",
+      port: 9050,
+      type: 5,
+    },
+  });
+```
+
 # based on
 
 * https://github.com/you21979/node-electrum-client
