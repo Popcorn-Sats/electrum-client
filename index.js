@@ -202,10 +202,10 @@ class ElectrumClient extends Client {
 		return this.request('blockchain.scripthash.subscribe', [scripthash]);
 	}
 	blockchainBlock_getHeader(height) {
-		return this.request('blockchain.block.get_header', [height]);
+		return this.request('blockchain.block.header', [height]);
 	}
 	blockchainBlock_headers(start_height, count) {
-		return this.request('blockchain.block.headeres', [start_height, count]);
+		return this.request('blockchain.block.headers', [start_height, count]);
 	}
 	blockchainEstimatefee(number) {
 		return this.request('blockchain.estimatefee', [number]);
