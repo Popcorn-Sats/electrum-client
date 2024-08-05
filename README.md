@@ -26,7 +26,7 @@ const client = new ElectrumClient(50001, "myonionaddress.onion", "tcp", {
 
 * persistence (ping strategy and reconnection)
 * batch requests
-* works in RN and nodejs
+* works in nodejs
 
 ## protocol spec
 
