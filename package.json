@@ -1,5 +1,5 @@
 {
-	"name": "@satsflow/electrum-client-tor",
+	"name": "electrum-client-tor",
 	"version": "1.1.0",
 	"description": "Electrum protocol client for Node.js, supporting Tor connections",
 	"main": "index.js",
